@@ -21,7 +21,7 @@ const Register = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     axios
-      .post(`http://localhost:4000/signup`, {
+      .post(`https://mernback4pmmay.onrender.com/signup`, {
         name,
         email,
         password,
