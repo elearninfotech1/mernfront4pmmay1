@@ -9,7 +9,6 @@ const AddTreatment = () => {
     e.preventDefault();
     axios
       .post(`https://mernback4pmmay.onrender.com/treatment`, {
-        id,
         tname,
         tdesc,
       })
