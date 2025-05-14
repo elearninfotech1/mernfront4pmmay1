@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 import useCustomHokkEx from "./CustomHokkEx";
 const Home = () => {
   const treatment = useCustomHokkEx(
-    `https://github.com/elearninfotech1/mernfront4pmmay/treatment`
+    `https://mernback4pmmay.onrender.com/treatment`
   );
   return (
     <main>
