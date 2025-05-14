@@ -12,7 +12,7 @@ const StudentDetails = () => {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-      .get(`https://github.com/elearninfotech1/mernfront4pmmay/student/${sid}`)
+      .get(`https://mernback4pmmay.onrender.com/student/${sid}`)
       .then((res) => {
         setName(res.data.name);
         setEmail(res.data.email);
