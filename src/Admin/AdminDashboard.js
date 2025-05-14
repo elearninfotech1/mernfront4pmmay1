@@ -10,7 +10,7 @@ const AdminDashboard = () => {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-      .get(`https://github.com/elearninfotech1/mernfront4pmmay/admindashboard`, {
+      .get(`https://mernback4pmmay.onrender.com/admindashboard`, {
         headers: {
           "x-token": token,
         },

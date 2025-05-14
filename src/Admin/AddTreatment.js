@@ -8,7 +8,7 @@ const AddTreatment = () => {
   const addTreatmentData = (e) => {
     e.preventDefault();
     axios
-      .post(`https://github.com/elearninfotech1/mernfront4pmmay/treatment`, {
+      .post(`https://mernback4pmmay.onrender.com/treatment`, {
         id,
         tname,
         tdesc,

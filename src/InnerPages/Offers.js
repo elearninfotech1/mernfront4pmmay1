@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 import CampaignIcon from "@mui/icons-material/Campaign";
 import useCustomHokkEx from "./CustomHokkEx";
 const Offers = () => {
-  const offer = useCustomHokkEx(`http://localhost:4000/offers`);
+  const offer = useCustomHokkEx(`https://mernback4pmmay.onrender.com/offers`);
   return (
     <main>
       <section className={innerStyles.bread}>

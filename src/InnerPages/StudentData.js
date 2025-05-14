@@ -5,7 +5,7 @@ import Table from "react-bootstrap/Table";
 import useCustomHokkEx from "./CustomHokkEx";
 const StudentData = () => {
   const student = useCustomHokkEx(
-    `https://github.com/elearninfotech1/mernfront4pmmay/student`
+    `https://mernback4pmmay.onrender.com/student`
   );
 
   return (

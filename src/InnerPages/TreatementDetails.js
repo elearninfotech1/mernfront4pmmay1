@@ -10,7 +10,7 @@ const TreatementDetails = () => {
   useEffect(() => {
     axios
       .get(
-        `https://github.com/elearninfotech1/mernfront4pmmay/treatment/${tid}`
+        `https://mernback4pmmay.onrender.com/treatment/${tid}`
       )
       .then((res) => {
         setData(res.data);

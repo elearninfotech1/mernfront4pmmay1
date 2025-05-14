@@ -7,7 +7,7 @@ const DeleteStudent = () => {
   const [student, setStudent] = useState([]);
   useEffect(() => {
     axios
-      .get(`https://github.com/elearninfotech1/mernfront4pmmay/student`)
+      .get(`https://mernback4pmmay.onrender.com/student`)
       .then((res) => {
         setStudent(res.data);
       })
@@ -18,7 +18,7 @@ const DeleteStudent = () => {
   const deletStudentData = (sid) => {
     axios
       .delete(
-        `https://github.com/elearninfotech1/mernfront4pmmay/student/${sid}`
+        `https://mernback4pmmay.onrender.com/student/${sid}`
       )
       .then((res) => {
         alert("Student Deleted Suc...");

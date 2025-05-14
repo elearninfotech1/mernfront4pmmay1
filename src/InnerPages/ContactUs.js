@@ -12,7 +12,7 @@ const ContactUs = () => {
   const appointmentDataStore = (e) => {
     e.preventDefault();
     axios
-      .post(`https://github.com/elearninfotech1/mernfront4pmmay/contactus`, {
+      .post(`https://mernback4pmmay.onrender.com/contactus`, {
         name,
         phone,
         email,

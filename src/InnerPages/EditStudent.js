@@ -8,7 +8,7 @@ const EditStudent = () => {
   const [student, setStudent] = useState([]);
   useEffect(() => {
     axios
-      .get(`https://github.com/elearninfotech1/mernfront4pmmay/student`)
+      .get(`https://mernback4pmmay.onrender.com/student`)
       .then((res) => {
         setStudent(res.data);
       })
