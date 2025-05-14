@@ -6,7 +6,7 @@ import useCustomHokkEx from "./CustomHokkEx";
 
 const Treatments = () => {
   const treatment = useCustomHokkEx(
-    `https://github.com/elearninfotech1/mernfront4pmmay/treatment`
+    `https://mernback4pmmay.onrender.com/treatment`
   );
   return (
     <main>
