@@ -1,0 +1,41 @@
+.bread {
+    background-color: rgb(17, 5, 129);
+}
+
+.bread h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 27px 0px;
+}
+
+.bx_shadow {
+    box-shadow: 3px 2px 8px 2px rgb(123, 125, 237);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.adminsidebar li {
+    list-style-type: none;
+    margin-bottom: 17px;
+}
+
+.adminsidebar li a {
+    font-weight: 600;
+    color: #000
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+}

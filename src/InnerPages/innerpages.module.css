@@ -1,0 +1,48 @@
+.bread {
+    background-color: rgb(23, 176, 69);
+}
+
+.bread h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    padding: 27px 0px;
+}
+
+.bx_shadow {
+    box-shadow: 3px 2px 8px 2px rgb(123, 237, 157);
+    padding: 20px;
+}
+
+.aboutus p {
+    text-align: justify;
+    line-height: 29px;
+    margin-bottom: 28px;
+}
+
+.aboutus h6 {
+    color: #f00
+}
+
+.offers h6 {
+    color: #00f
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.title span {
+    color: #00f;
+}
+
+.contactus iframe {
+    width: 100%;
+    height: 450px
+}
