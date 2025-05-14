@@ -11,7 +11,7 @@ const AddDoctor = () => {
   const addTreatmentData = (e) => {
     e.preventDefault();
     axios
-      .post(`https://github.com/elearninfotech1/mernfront4pmmay/doctor`, {
+      .post(`https://mernback4pmmay.onrender.com/doctor`, {
         tname,
         dname,
         qaulification,
