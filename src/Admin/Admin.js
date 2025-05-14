@@ -18,7 +18,7 @@ const Admin = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     axios
-      .post(`https://github.com/elearninfotech1/mernfront4pmmay/login`, {
+      .post(`https://mernback4pmmay.onrender.com/login`, {
         email,
         password,
       })
