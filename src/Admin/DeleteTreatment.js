@@ -6,7 +6,7 @@ const DeleteTreatment = () => {
   const [treatment, setTreatment] = useState([]);
   useEffect(() => {
     axios
-      .get(`https://github.com/elearninfotech1/mernfront4pmmay/treatment`)
+      .get(`https://mernback4pmmay.onrender.com/treatment`)
       .then((res) => {
         setTreatment(res.data);
       })
@@ -17,7 +17,7 @@ const DeleteTreatment = () => {
   const deletTreatmentData = (tid) => {
     axios
       .delete(
-        `https://github.com/elearninfotech1/mernfront4pmmay/treatment/${tid}`
+        `https://mernback4pmmay.onrender.com/treatment/${tid}`
       )
       .then((res) => {
         alert("Treatment Deleted Suc...");
