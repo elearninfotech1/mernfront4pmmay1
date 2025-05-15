@@ -2,11 +2,9 @@ import React, { useContext, useState } from "react";
 import adminStyles from "./admin.module.css";
 import { NavLink, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { store } from "../App";
 const Admin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [token, setToken] = useContext(store);
 
   const navigate = useNavigate();
   const resetInputData = (e) => {
