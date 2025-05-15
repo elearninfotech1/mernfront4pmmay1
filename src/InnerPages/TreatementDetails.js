@@ -9,9 +9,7 @@ const TreatementDetails = () => {
   const { tid, tname } = useParams();
   useEffect(() => {
     axios
-      .get(
-        `https://mernback4pmmay.onrender.com/treatment/${tid}`
-      )
+      .get(`https://mernback4pmmay.onrender.com/treatment/${tid}`)
       .then((res) => {
         setData(res.data);
       })
@@ -20,7 +18,7 @@ const TreatementDetails = () => {
       });
     //let tname = data.tname;
     axios
-      .get(`https://github.com/elearninfotech1/mernfront4pmmay/doctor/${tname}`)
+      .get(`https://mernback4pmmay.onrender.com/doctor/${tname}`)
       .then((res) => {
         setDoctor(res.data);
       })

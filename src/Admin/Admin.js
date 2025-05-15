@@ -23,15 +23,13 @@ const Admin = () => {
         password,
       })
       .then((res) => {
-        setToken(res.data.token);
+        navigate("/admindashboard");
       })
       .catch((err) => {
         alert(err);
       });
   };
-  if (token) {
-    navigate("/admindashboard");
-  }
+
   return (
     <main>
       <section className={adminStyles.bread}>

@@ -6,25 +6,7 @@ import { store } from "../App";
 import axios from "axios";
 const AdminDashboard = () => {
   const [data, setData] = useState("");
-  const [token, setToken] = useContext(store);
-  const navigate = useNavigate();
-  useEffect(() => {
-    axios
-      .get(`https://mernback4pmmay.onrender.com/admindashboard`, {
-        headers: {
-          "x-token": token,
-        },
-      })
-      .then((res) => {
-        setData(res.data);
-      })
-      .catch((err) => {
-        alert(err);
-      });
-  });
-  if (!token) {
-    navigate("/admin");
-  }
+  const navigate = useNavigate(); 
   return (
     <main>
       <section className={adminStyles.bread}>

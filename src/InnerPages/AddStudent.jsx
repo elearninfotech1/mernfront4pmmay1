@@ -9,7 +9,7 @@ const AddStudent = () => {
 
     const addStudentData=(e)=>{
         e.preventDefault();
-        axios.post(`http://localhost:4000/student`,{name,email,phone,address})
+        axios.post(`https://mernback4pmmay.onrender.com/student`,{name,email,phone,address})
         .then(res=>{
             alert("Student Added Succ....");
             setName("");
